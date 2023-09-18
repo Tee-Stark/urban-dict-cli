@@ -1,10 +1,10 @@
 {
-  "name": "dict-cli",
+  "name": "urbanary-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "urban-dict": "./bin/index.js"
+    "urbanary": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
