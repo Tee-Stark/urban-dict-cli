@@ -28,3 +28,11 @@ $ urbanary find -e -c 5 lol # find meaning of lol with up to 5 definitions and e
 -c [amount] or --count [amount] # to get up to [amount] definitions and example sentences, max = 10
 ```
 
+### To Do
+- [] Add more options
+- [] Colorize output
+- [] Better formatting for output
+
+### License
+MIT
+```
