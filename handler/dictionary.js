@@ -29,6 +29,11 @@ const displayDefinition = (wordData, options) => {
             console.log(`Example:\n${element.example}\n`);
         });
         return;
+    } else if (options.count && !options.example) {
+        let count = 1;
+        wordData.slice(0, options.count).forEach(element => {
+            console.log(`Definition ${count++}: ${element.definition}`);
+        });
     } else if (options.example) {
         console.log(`Definition: ${wordData[0].definition}`);
         console.log(`Example:\n${wordData[0].example}`);
