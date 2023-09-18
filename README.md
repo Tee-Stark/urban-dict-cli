@@ -34,5 +34,5 @@ $ urbanary find -e -c 5 lol # find meaning of lol with up to 5 definitions and e
 - [] Better formatting for output
 
 ### License
-MIT
+<!--MIT-->
 ```
